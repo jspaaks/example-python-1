@@ -34,4 +34,5 @@ jobs:
         name: coverage
         path: coverage.xml
     - uses: jpetrucciani/black-check@master
-  
+    - run: hostname
+    
