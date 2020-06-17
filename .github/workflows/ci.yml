@@ -28,4 +28,8 @@ jobs:
         poetry install
     - name: Test with pytest
       run: |
-        poetry run pytest tests
+        poetry run pytest --cov=justatest --cov-report xml tests
+    - uses: actions/upload-artifact@v2
+      with:
+        name: coverage
+        path: coverage.xml
