@@ -6,4 +6,4 @@ def test_version():
 
 
 def test_sum():
-    assert sum(2, 3) == 5
+    assert sum(2, 4) == 6
