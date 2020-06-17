@@ -1,2 +1,2 @@
-# jsutatest
+# justatest
 gh selfhosted runner test
