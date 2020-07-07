@@ -14,7 +14,7 @@ jobs:
 
     - name: show ls  
       shell: bash -l {0}
-      command: ls -la /usr/bin
+      run: ls -la /usr/bin
 
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
